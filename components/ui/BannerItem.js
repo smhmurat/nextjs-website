@@ -1,0 +1,18 @@
+import React from 'react'
+import Link from 'next/link'
+
+const BannerItem = ({link, name, key}) => {
+  return (
+    <Link key={key} href='/' >
+      <a className='flex flex-col items-center gap-y-2 w-48 text-center font-semibold hover:text-brand-color'>
+        <span className='bg-primary-color rounded-full w-24 h-24 flex items-center justify-center '>
+         {link}
+        </span>
+        {name}
+      </a>
+    </Link>
+  )
+}
+
+export default BannerItem
+

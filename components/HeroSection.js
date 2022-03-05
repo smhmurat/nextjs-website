@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation, Autoplay, EffectCoverflow } from "swiper";
 
-export default function App() {
+const HeroSection = () => {
 
   return (
     <div>
@@ -57,3 +57,5 @@ export default function App() {
     </div>
   );
 }
+
+export default HeroSection

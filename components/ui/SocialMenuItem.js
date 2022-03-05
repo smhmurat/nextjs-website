@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-import { FiMail } from 'react-icons/fi'
 
 const SocialMenuItem = ({ href, name }) => {
   return (
