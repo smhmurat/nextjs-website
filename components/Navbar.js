@@ -76,8 +76,10 @@ function MobileNav({open, setOpen}) {
                 <Link href="/contact" >
                     <a className="cursor-pointer text-white px-2 py-2 text-md hover:text-brand-color"  onClick={() => handleClick(open, setOpen)}>İletişim</a>
                 </Link>
-                
-            </div>  
+            </div> 
+            <div className='flex items-center justify-center gap-x-6 mx-4 mt-4 max-w-full'>
+                {socialMenu.map((item, index) => <SocialMenuItem key={index} href={item.href} name={item.name} />)}
+            </div>
         </div>
     )
 }

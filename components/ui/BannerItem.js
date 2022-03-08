@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
 
-const BannerItem = ({link, name, key}) => {
+const BannerItem = ({link, name}) => {
   return (
-    <Link key={key} href='/' >
+    <Link href='/'>
       <a className='flex flex-col items-center gap-y-2 w-48 text-center font-semibold hover:text-brand-color'>
-        <span className='bg-primary-color rounded-full w-24 h-24 flex items-center justify-center '>
+        <span className='bg-primary-color rounded-full w-24 h-24 flex items-center justify-center'>
          {link}
         </span>
         {name}

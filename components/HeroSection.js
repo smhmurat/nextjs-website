@@ -10,42 +10,52 @@ import "swiper/css/navigation";
 
 
 // import required modules
-import { Pagination, Navigation, Autoplay, EffectCoverflow } from "swiper";
+import { Parallax, Pagination, Navigation, Autoplay, EffectCoverflow } from "swiper";
 
 const HeroSection = () => {
 
   return (
-    <div>
+    <>
       <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
+        style={{
+          "--swiper-pagination-color": "#fff",
         }}
-        // slidesPerView={1}
-        spaceBetween={30}
-        loop={true}
+        speed={1000}
+        parallax={true}
         pagination={{
           clickable: true,
         }}
-        navigation={false}
-        modules={[Pagination, Navigation, Autoplay, EffectCoverflow]}
+        modules={[Parallax, Pagination]}
+        loop={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
-        speed={1200}
-        
-        
       >
+       <div
+          slot="container-start"
+          className="parallax-bg"
+          style={{
+            "backgroundImage":
+              "url(/images/slide14.jpg)",
+            "objectFit": 'cover'
+          }}
+          data-swiper-parallax="-23%"
+        ></div>
         <SwiperSlide >
-          <Image src={slide14} layout="responsive" alt="img1" objectFit="cover"/>
+           <div className="title" data-swiper-parallax="-300">
+            Slide 1
+          </div>
+          <div className="subtitle" data-swiper-parallax="-200">
+            Subtitle
+          </div>
+          <div className="text" data-swiper-parallax="-100">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
+              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
+            </p>
+          </div>
         </SwiperSlide>
         <SwiperSlide >
           <Image src={slide14} layout="responsive" alt="img1" objectFit="cover"/>
@@ -54,7 +64,7 @@ const HeroSection = () => {
           <Image src={slide14} layout="responsive" alt="img1" objectFit="cover"/>
         </SwiperSlide>
       </Swiper>
-    </div>
+    </>
   );
 }
 
