@@ -49,7 +49,7 @@ export default function App() {
               alt="img1"
               objectFit="cover"
             />
-            <div className='absolute left-0 lg:left-1/2 top-0 lg:top-1/4 p-4 lg:p-12 rounded-lg backdrop-opacity-40'>
+            <div className='absolute left-0 lg:left-1/2 top-0 lg:top-1/2 lg:-translate-y-1/2 p-4 lg:p-12 rounded-lg backdrop-opacity-40'>
               <h1 className='text-primary-color font-extrabold text-xl lg:text-4xl opacity-100 uppercase mb-4'>Murat Hukuk & Danışmanlık</h1>
               <h2 className='text-primary-color opacity-100 text-lg'>HEDEFİMİZ; ÖNCELİKLE UYUŞMAZLIĞI ÖNLEMEK, MEVCUT UYUŞMAZLIK DURUMUNDA İSE EN HIZLI VE MAKSİMUM FAYDAYI TEMİN EDECEK ŞEKİLDE ÇÖZÜME KAVUŞTURABİLMEK VE HUKUKU HERKES İÇİN UYGULANABİLİR HALE GETİRMEK, MÜVEKKİLLERİMİZİN GERÇEK İHTİYAÇLARI VE AMAÇLARI ÜZERİNE ODAKLANILARAK 
 KALİTELİ VE HIZLI HİZMET SAYESİNDE
