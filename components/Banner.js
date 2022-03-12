@@ -27,7 +27,7 @@ const bannerMenu = [
 
 const Banner = () => {
   return (
-    <div className=' bg-secondary-color text-white p-6'>
+    <div className='bg-secondary-color p-4'>
       <div className='container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 place-items-center'>
         {bannerMenu.map((item, index) => <BannerItem key={index} link={item.link} name={item.name} />)}
       </div>

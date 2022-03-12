@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import "flowbite";
 
 const Blog = () => {
   const blog = [
@@ -26,7 +25,7 @@ const Blog = () => {
         <h2 className="title-font sm:text-4xl text-3xl text-center mb-4 font-medium text-primary-color">
           Blog Yazilarimiz
         </h2>
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-4 px-4">
           {blog.map((item, index) => (
           <div key={index} class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
             <Link href="#">

@@ -4,16 +4,16 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="bg-primary-color text-white">
+    <div className="bg-secondary-color text-primary-color">
       <div className="container mx-auto p-12">
         <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-12">
           <div className="flex flex-col gap-4">
             <Link href="/">
               <a>
                 <Image
-                  src="/images/logo.png"
+                  src="/images/logo.svg"
                   width={249}
-                  height={49}
+                  height={64}
                   alt="logo"
                 />
               </a>

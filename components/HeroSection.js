@@ -34,7 +34,7 @@ export default function App() {
         navigation={false}
         modules={[Pagination, Navigation, Autoplay, EffectCoverflow]}
         autoplay={{
-          delay: 2500,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         speed={1200}
@@ -42,24 +42,27 @@ export default function App() {
         <SwiperSlide>
           <div className='relative'>
             <Image
-              src="/images/slide1.jpg"
+              src="/images/banner-img1.jpg"
               width={1440}
               height={720}
               layout="responsive"
               alt="img1"
               objectFit="cover"
             />
-            <div className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-cloud-color p-12 rounded-lg backdrop-opacity-40'>
-              <h1 className='text-primary-color opacity-100 uppercase mb-4'>Deneyimli Ekibimizle</h1>
-              <h1 className='text-primary-color opacity-100'>YERLİ VE YABANCI ŞİRKETLER İLE BİREYLER TEMSİL EDİLMEKTE,
-                ÇÖZÜM ODAKLI, KAPSAMLI HUKUKİ DANIŞMANLIK VE DAVA TAKİP HİZMETLERİ
-                SUNULMAKTADIR.</h1>
+            <div className='absolute left-0 lg:left-1/2 top-0 lg:top-1/4 p-4 lg:p-12 rounded-lg backdrop-opacity-40'>
+              <h1 className='text-primary-color font-extrabold text-xl lg:text-4xl opacity-100 uppercase mb-4'>Murat Hukuk & Danışmanlık</h1>
+              <h2 className='text-primary-color opacity-100 text-lg'>HEDEFİMİZ; ÖNCELİKLE UYUŞMAZLIĞI ÖNLEMEK, MEVCUT UYUŞMAZLIK DURUMUNDA İSE EN HIZLI VE MAKSİMUM FAYDAYI TEMİN EDECEK ŞEKİLDE ÇÖZÜME KAVUŞTURABİLMEK VE HUKUKU HERKES İÇİN UYGULANABİLİR HALE GETİRMEK, MÜVEKKİLLERİMİZİN GERÇEK İHTİYAÇLARI VE AMAÇLARI ÜZERİNE ODAKLANILARAK 
+KALİTELİ VE HIZLI HİZMET SAYESİNDE
+UZUN SÜRELİ VE KALICI ÇALIŞMA SAĞLANMAKTADIR.
+
+              </h2>
+
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <Image
-              src="/images/slide1.jpg"
+              src="/images/banner-img2.jpg"
               width={1440}
               height={720}
               layout="responsive"
@@ -69,7 +72,7 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-              src="/images/slide1.jpg"
+              src="/images/banner-img3.jpg"
               width={1440}
               height={720}
               layout="responsive"

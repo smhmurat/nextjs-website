@@ -17,7 +17,7 @@ const menu = [
         },
         {
             'href': '/services',
-            'name': 'Hizmetlerimiz'
+            'name': 'Çalışma Alanlarımız'
         },
         {
             'href': '/blog',
@@ -88,13 +88,13 @@ export default function Navbar() {
     const [open, setOpen] = useState(false)
 
     return (
-        <div className="flex items-center justify-between filter bg-primary-color px-4 py-4 h-20">
+        <div className="flex items-center justify-between filter bg-gradient-to-b from-primary-color to-secondary-color px-4 py-4 text-white">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className='container mx-auto'>
               <div className="flex items-center justify-between w-full z-30">
                 <Link href='/'>
                     <a className='z-50'>
-                        <Image src='/images/logo.png' width={249} height={49} alt='logo'/>
+                        <Image src='/images/logo.svg' width={241} height={64} alt='logo'/>
                     </a>
                 </Link>
                 <div className="flex relative w-8 h-8 flex-col justify-between items-center z-50 md:hidden" onClick={() => handleClick(open, setOpen)}>

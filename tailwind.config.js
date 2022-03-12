@@ -5,19 +5,20 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./node_modules/flowbite/**/*.js"
   ],
-  plugins: [
-    require('flowbite/plugin')
-  ],
   theme: {
     extend: {
       colors: {
-        'primary-color': '#333A4D',
-        'secondary-color': '#282E3F',
-        'brand-color': '#E8C053',
+        'primary-color': '#11172b',
+        'secondary-color': '#1D2439',
+        'brand-color': '#c8102e',
         'cloud-color': '#ECF0F1'
       },
       boxShadow: {
         '3xl': '0px 14px 80px rgba(34, 35, 58, 0.2)'
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/images/hero-pattern.jpg')",
+        'footer-texture': "url('/img/footer-texture.png')",
       }
     },
   },
