@@ -2,7 +2,9 @@ import React from 'react'
 
 const blog = () => {
   return (
-    <div>blog</div>
+    <div>
+      Blog Sayfasi
+    </div>
   )
 }
 

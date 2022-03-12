@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-
 const Services = () => {
 
   const services = [
@@ -39,23 +38,21 @@ const Services = () => {
   ]
 
   return (
-    <div className='bg-cloud-color w-full py-24'>
+    <div className='bg-cloud-color w-full py-24 backdrop-opacity-20'>
       <div className='container mx-auto'>
-        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-primary-color text-center">Uzmanlik Alanlarimiz</h1>
+        <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-primary-color text-center">Uzmanlik Alanlarimiz</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center space-y-8 w-full'>
           {services.map((item, index) => (
-              <div key={index} className='flex items-center justify-start gap-4 w-4/5 '>
-                <Link href='/'>
-                  <a>
-                    <Image src={item.img} width={64} height={64} />
-                  </a>
-                </Link>
-                <hr className='w-1 h-12 bg-primary-color' />
-                <div className='flex flex-col items-start'>
-                  <h5>{item.title}</h5>
-                  <p className='font-normal text-xs'>{item.subtitle}</p>
-                </div>
-              </div>
+              <Link key={index}  href='/services'>
+                <a className='flex items-center justify-start gap-4 w-4/5 '>
+                  <Image src={item.img} width={64} height={64} alt={item.title}/>
+                  <hr className='w-1 h-12 bg-primary-color' />
+                  <div className='flex flex-col items-start'>
+                    <h5>{item.title}</h5>
+                    <p className='font-normal text-xs'>{item.subtitle}</p>
+                  </div>
+                </a>
+              </Link>
             ))}
         </div>
       </div>

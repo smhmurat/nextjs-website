@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import MenuItem from './ui/MenuItem'
 import SocialMenuItem from './ui/SocialMenuItem'
 import { FiMail, FiPhone } from 'react-icons/fi'
-import {FaFacebook, FaInstagram, FaTwitter} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const menu = [
         {
@@ -94,7 +94,7 @@ export default function Navbar() {
               <div className="flex items-center justify-between w-full z-30">
                 <Link href='/'>
                     <a className='z-50'>
-                        <Image src='/images/logo.png' width={249} height={49} />
+                        <Image src='/images/logo.png' width={249} height={49} alt='logo'/>
                     </a>
                 </Link>
                 <div className="flex relative w-8 h-8 flex-col justify-between items-center z-50 md:hidden" onClick={() => handleClick(open, setOpen)}>
@@ -108,7 +108,7 @@ export default function Navbar() {
                 </nav>
                 {/* SOCIAL MENU ITEMS */}
                 <nav className='hidden lg:flex items-center justify-between gap-x-4'>
-                  {socialMenu.map((item, index) => <SocialMenuItem key={index} href={item.href} name={item.name} />)}
+                  {socialMenu.map((item, index) => <SocialMenuItem className='selection: text-brand-color' key={index} href={item.href} name={item.name} />)}
                 </nav>
               </div>
             </div>
