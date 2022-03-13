@@ -26,8 +26,8 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <h6 className="font-semibold text-brand-color">E-bülten Kayıt</h6>
             <input
-              type="text"
-              className="w-full h-8 rounded p-2 focus:outline-none"
+              type="mail"
+              className="w-full h-8 rounded p-2 text-primary-color"
               placeholder="E-posta Adresi"
             ></input>
             <p>

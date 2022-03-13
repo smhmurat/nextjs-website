@@ -13,11 +13,14 @@ module.exports = {
         'brand-color': '#c8102e',
         'cloud-color': '#ECF0F1'
       },
+      fontFamily: {
+        sans: ['HelveticaNeue,Helvetica Neue,helvetica', 'sans-serif']
+      },
       boxShadow: {
         '3xl': '0px 14px 80px rgba(34, 35, 58, 0.2)'
       },
       backgroundImage: {
-        'hero-pattern': "url('/images/hero-pattern.jpg')",
+        'hero-pattern': "url('/images/hero-pattern-d.png')",
         'footer-texture': "url('/img/footer-texture.png')",
       }
     },

@@ -4,32 +4,36 @@ import { FaBalanceScale, FaFileContract, FaIndustry, FaUsers, FaUniversity } fro
 
 const bannerMenu = [
   {
-    'link': <FaBalanceScale size={64}/>, 
+    'src': '/images/assets/banner/advice-law.svg', 
     'name': 'Hukuki Danışmanlık'
   },
   {
-    'link': <FaFileContract size={64}/>, 
-    'name': 'Sözleşmeler Hukuku'
+    'src': '/images/assets/advice-law.svg', 
+    'name': 'Boşanma Hukuku'
   },
   {
-    'link': <FaUsers size={64}/>, 
-    'name': 'Tüketici Hukuku'
+    'src': '/images/assets/advice-law.svg', 
+    'name': 'Tazminat Hukuku'
   },
   {
-    'link': <FaUniversity size={64}/>, 
-    'name': 'İcra Hukuku'
-  },
-  {
-    'link': <FaIndustry size={64}/>,
+    'src': '/images/assets/advice-law.svg', 
     'name': 'İş Hukuku'
+  },
+  {
+    'src': '/images/assets/advice-law.svg', 
+    'name': 'Miras Hukuku'
+  },
+  {
+    'src': '/images/assets/advice-law.svg', 
+    'name': 'Bireysel Başvuru Yolu'
   }
 ]
 
 const Banner = () => {
   return (
-    <div className='bg-secondary-color p-4'>
-      <div className='container mx-auto grid grid-cols-2 lg:grid-cols-5 place-items-center'>
-        {bannerMenu.map((item, index) => <BannerItem key={index} link={item.link} name={item.name} />)}
+    <div className='bg-secondary-color py-4'>
+      <div className='container mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 place-items-center gap-y-4'>
+        {bannerMenu.map((item, index) => <BannerItem key={index} src={item.src} name={item.name} />)}
       </div>
     </div>
   )

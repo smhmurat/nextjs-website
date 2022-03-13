@@ -21,11 +21,11 @@ const menu = [
         },
         {
             'href': '/blog',
-            'name': 'Blog'
+            'name': 'BLOG'
         },
         {
             'href': '/contact',
-            'name': 'İletişim'
+            'name': 'İLETİŞİM'
         }
     ]
 
@@ -99,9 +99,9 @@ export default function Navbar() {
                 </Link>
                 <div className="flex relative w-8 h-8 flex-col justify-between items-center z-50 md:hidden" onClick={() => handleClick(open, setOpen)}>
                     {/* hamburger button */}
-                    <span className={`h-1 w-full bg-brand-color rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-3.5" : ""}`} />
-                    <span className={`h-1 w-full bg-brand-color rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
-                    <span className={`h-1 w-full bg-brand-color rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
+                    <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-3.5" : ""}`} />
+                    <span className={`h-1 w-full bg-white rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"}`} />
+                    <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
                 <nav className='hidden md:flex items-center justify-between gap-x-2 lg:gap-x-4'>
                   {menu.map((item, index) => <MenuItem key={index} href={item.href} name={item.name} />)}

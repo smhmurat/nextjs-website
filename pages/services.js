@@ -1,30 +1,61 @@
-import React from 'react'
-
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const services = () => {
   return (
     <section>
-      <div className='container mx-auto'>
-        <ul class="flex flex-wrap border-b border-gray-200 dark:border-gray-700">
-    <li class="mr-2">
-        <a href="#" aria-current="page" class="inline-block py-4 px-4 text-sm font-medium text-center text-blue-600 bg-gray-100 rounded-t-lg active dark:bg-gray-800 dark:text-blue-500">Profile</a>
-    </li>
-    <li class="mr-2">
-        <a href="#" class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg hover:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300">Dashboard</a>
-    </li>
-    <li class="mr-2">
-        <a href="#" class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg hover:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300">Settings</a>
-    </li>
-    <li class="mr-2">
-        <a href="#" class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-500 rounded-t-lg hover:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300">Contacts</a>
-    </li>
-    <li>
-        <a class="inline-block py-4 px-4 text-sm font-medium text-center text-gray-400 rounded-t-lg cursor-not-allowed dark:text-gray-500">Disabled</a>
-    </li>
-</ul>
+      <div className="container mx-auto">
+        <div className="flex items-center justify-center w-full py-4">
+          <div className="w-1/3 px-4">
+             <Link href='/services'>
+                <a className='flex items-center justify-start gap-4 w-4/5 '>
+                  <Image src='/images/assets/services/ticaret.png' width={48} height={48} alt='{item.title}'/>
+                  <hr className='w-1 h-12 bg-primary-color' />
+                  <div className='flex flex-col items-start'>
+                    <h5>Ticaret Hukuku</h5>
+                    <p className='font-normal text-xs'>Alt baslik</p>
+                  </div>
+                </a>
+              </Link>
+          </div>
+          <div className="w-2/3 bg-green-500">Sag Taraf</div>
+        </div>
+
+        <div className="flex items-center justify-center w-full py-4">
+          <div className="w-1/3 px-4">
+             <Link href='/services'>
+                <a className='flex items-center justify-start gap-4 w-4/5 '>
+                  <Image src='/images/assets/services/ticaret.png' width={48} height={48} alt='{item.title}'/>
+                  <hr className='w-1 h-12 bg-primary-color' />
+                  <div className='flex flex-col items-start'>
+                    <h5>Ticaret Hukuku</h5>
+                    <p className='font-normal text-xs'>Alt baslik</p>
+                  </div>
+                </a>
+              </Link>
+          </div>
+          <div className="w-2/3 bg-green-500">Sag Taraf</div>
+        </div>
+
+        <div className="flex items-center justify-center w-full py-4">
+          <div className="w-1/3 px-4">
+             <Link href='/services'>
+                <a className='flex items-center justify-start gap-4 w-4/5 '>
+                  <Image src='/images/assets/services/ticaret.png' width={48} height={48} alt='{item.title}'/>
+                  <hr className='w-1 h-12 bg-primary-color' />
+                  <div className='flex flex-col items-start'>
+                    <h5>Ticaret Hukuku</h5>
+                    <p className='font-normal text-xs'>Alt baslik</p>
+                  </div>
+                </a>
+              </Link>
+          </div>
+          <div className="w-2/3 bg-green-500">Sag Taraf</div>
+        </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default services
+export default services;
