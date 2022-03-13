@@ -8,23 +8,23 @@ const bannerMenu = [
     'name': 'Hukuki Danışmanlık'
   },
   {
-    'src': '/images/assets/advice-law.svg', 
+    'src': '/images/assets/banner/divorce.svg', 
     'name': 'Boşanma Hukuku'
   },
   {
-    'src': '/images/assets/advice-law.svg', 
+    'src': '/images/assets/banner/compensation.svg', 
     'name': 'Tazminat Hukuku'
   },
   {
-    'src': '/images/assets/advice-law.svg', 
+    'src': '/images/assets/banner/profession.svg', 
     'name': 'İş Hukuku'
   },
   {
-    'src': '/images/assets/advice-law.svg', 
+    'src': '/images/assets/banner/inheritance.svg', 
     'name': 'Miras Hukuku'
   },
   {
-    'src': '/images/assets/advice-law.svg', 
+    'src': '/images/assets/banner/human-right.svg', 
     'name': 'Bireysel Başvuru Yolu'
   }
 ]

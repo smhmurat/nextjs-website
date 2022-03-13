@@ -115,7 +115,7 @@ const Services = () => {
   return (
     <div className='bg-cloud-color w-full py-24 backdrop-opacity-20'>
       <div className='container mx-auto'>
-        <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-primary-color text-center">Çalışma Alanlarımız</h2>
+        <h2 className="title-font sm:text-4xl text-3xl font-medium text-primary-color text-center">Çalışma Alanlarımız</h2>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center space-y-8 w-full'>
           {services.map((item, index) => (
               <Link key={index}  href='/services'>
