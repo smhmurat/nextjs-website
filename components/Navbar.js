@@ -32,23 +32,28 @@ const menu = [
 const socialMenu = [
         {
             'href': '/',
-            'name': <FiMail size={24} />
+            'name': 'Mail',
+            'icon': <FiMail size={24} />
         },
         {
             'href': '/',
-            'name': <FiPhone size={24} />
+            'name': 'Telefon',
+            'icon': <FiPhone size={24} />
         },
         {
             'href': '/',
-            'name': <FaFacebook size={24} />
+            'name': 'Facebook',
+            'icon': <FaFacebook size={24} />
         },
         {
             'href': '/',
-            'name': <FaTwitter size={24} />
+            'name': 'Twitter',
+            'icon': <FaTwitter size={24} />
         },
         {
             'href': '/',
-            'name': <FaInstagram size={24} />
+            'name': 'Instagram',
+            'icon': <FaInstagram size={24} />
         }
     ]
 
@@ -59,26 +64,26 @@ const handleClick = (open, setOpen) => {
 
 function MobileNav({open, setOpen}) {
   return (
-        <div className={`absolute top-0 left-0 h-screen w-screen bg-primary-color transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-500 ease-in-out filter z-10`}>
-            <div className="flex flex-col mx-4 mt-20 text-brand-color max-w-full">
+        <div className={`absolute top-0 left-0 w-screen bg-primary-color pb-24 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-500 ease-in-out filter z-10`}>
+            <div className="flex flex-col mx-4 mt-24 text-brand-color max-w-full">
                 <Link href="/" >
-                    <a className="cursor-pointer text-white px-2 py-2 text-md hover:text-brand-color"  onClick={() => handleClick(open, setOpen)}>Anasayfa</a>
+                    <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>ANASAYFA</a>
                 </Link>
                 <Link href="/about" >
-                    <a className="cursor-pointer text-white px-2 py-2 text-md hover:text-brand-color"  onClick={() => handleClick(open, setOpen)}>Hakkımızda</a>
+                    <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>HAKKIMIZDA</a>
                 </Link>
                 <Link href="/services" >
-                    <a className="cursor-pointer text-white px-2 py-2 text-md hover:text-brand-color"  onClick={() => handleClick(open, setOpen)}>Hizmetlerimiz</a>
+                    <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>ÇALIŞMA ALANLARIMIZ</a>
                 </Link>
                 <Link href="/blog" >
-                    <a className="cursor-pointer text-white px-2 py-2 text-md hover:text-brand-color"  onClick={() => handleClick(open, setOpen)}>Blog</a>
+                    <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>BLOG</a>
                 </Link>
                 <Link href="/contact" >
-                    <a className="cursor-pointer text-white px-2 py-2 text-md hover:text-brand-color"  onClick={() => handleClick(open, setOpen)}>İletişim</a>
+                    <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>İLETİŞİM</a>
                 </Link>
             </div> 
-            <div className='flex items-center justify-center gap-x-6 mx-4 mt-4 max-w-full'>
-                {socialMenu.map((item, index) => <SocialMenuItem key={index} href={item.href} name={item.name} />)}
+            <div className='flex items-center justify-center gap-x-6 mx-4 mt-6'>
+                {socialMenu.map((item, index) => <SocialMenuItem key={index} href={item.href} name={item.name} icon={item.icon} />)}
             </div>
         </div>
     )
@@ -108,7 +113,7 @@ export default function Navbar() {
                 </nav>
                 {/* SOCIAL MENU ITEMS */}
                 <nav className='hidden lg:flex items-center justify-between gap-x-4'>
-                  {socialMenu.map((item, index) => <SocialMenuItem className='selection: text-brand-color' key={index} href={item.href} name={item.name} />)}
+                  {socialMenu.map((item, index) => <SocialMenuItem className='selection: text-brand-color' key={index} href={item.href} name={item.name} icon={item.icon}/>)}
                 </nav>
               </div>
             </div>

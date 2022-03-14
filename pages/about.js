@@ -9,68 +9,84 @@ const About = () => {
           Hakkımızda
         </h1>
         <div className="flex flex-col lg:flex-row items-start justify-center gap-4">
-        <div className="shadow-2xl rounded-3xl mt-8 flex items-center justify-center">
+          <div className="shadow-2xl rounded-3xl mt-8 flex items-center justify-center">
             <Image
               className="object-cover object-center rounded-3xl"
               src="/images/hero-photo.jpg"
-              width={400}
-              height={400}
+              width={1280}
+              height={1280}
               alt="hero"
             />
           </div>
           <ol className="relative border-l border-gray-200">
-            <li className="mb-10 ml-4">
+            <li className="mb-5 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white"></div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Haziran 2017
+                Ekim 2013 - Haziran 2017
               </time>
               <h3 className="text-lg font-semibold text-gray-900">
                 Hukuk Fakultesi
               </h3>
               <p className="mb-4 text-base font-normal text-gray-500">
-                Avukat Beytullah Murat 2017 yili Haziran ayinda Istanbul
-                Universitesi Hukuk Fakultesi'nden derece ile mezun oldu.
+                Avukat Beytullah MURAT 2017 yili Haziran ayinda Istanbul
+                Universitesi Hukuk Fakultesi&apos;nden onur derecesi ile mezun
+                olmuştur.
               </p>
             </li>
-            <li className="mb-10 ml-4">
+            <li className="mb-5 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                Ocak 2017 - Haziran 2020
+                Ocak 2016 - Aralık 2020
               </time>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                 Is Deneyimi
               </h3>
               <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                Yaklasik 3 yil boyunca Istanbul Anadolu Yakasi Maltepe ilcesinde
-                bulunan Dogal Hukuk Burosunda staj ve sonrasinda gorev yapti.
+                Avukat Beytullah MURAT öğrencilik döneminde başlamış olduğu
+                Istanbul Anadolu Yakasi Maltepe ilcesinde bulunan Dogal Hukuk
+                Burosunda yaklaşık 5 yıl çalışmış, avukatlık staj ve sonrasinda
+                da serbest avukat olarak bu büroda birçok alanda dava takibi
+                yapmıştır.
               </p>
             </li>
-            <li className="mb-10 ml-4">
+            <li className="mb-5 ml-4">
               <div className="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                February 2022
+                Mart 2021 - ...
               </time>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                Application UI code in Tailwind CSS
+                Murat Hukuk & Danışmanlık
               </h3>
               <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                Get access to over 20+ pages including a dashboard layout,
-                charts, kanban board, calendar, and pre-order E-commerce &
-                Marketing pages.
+                Avukat Beytullah MURAT İstanbul’da üniversite dönemi ve
+                sonrasında yaptığı işlerde kazandığı tecrübe sonucunda 2021
+                yılında Kayseri’ye gelerek Murat Hukuk & Danışmanlık Bürosunu
+                kurmuştur.
               </p>
-            </li>
-            <li className="mb-10 ml-4">
-              <div className="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                February 2022
-              </time>
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                Application UI code in Tailwind CSS
-              </h3>
               <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                Get access to over 20+ pages including a dashboard layout,
-                charts, kanban board, calendar, and pre-order E-commerce &
-                Marketing pages.
+                Murat Hukuk & Danışmanlık Bürosu, yerli ve yabancı
+                müvekkillerine, ticari yaklaşımlara ve kişisel özelliklere
+                uygun, çözüm odaklı, kapsamlı hukuki danışmanlık ve dava takip
+                hizmetleri sunmakta, dürüşt, şeffaf, müvekkil odaklı seçkin bir
+                hukuki destek sağlamaktadır.
+              </p>
+              <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                Murat Hukuk & Danışmanlık Bürosu, müvekkillerin taleplerine en
+                hızlı şekilde cevap verebilmekte, her müvekkille karşılıklı
+                güvene dayalı uzun soluklu işler tesis etmekte ve müvekkillerin
+                kendilerine özgü çalışma sistemlerini kavrayarak onlara destek
+                olmaktadır. Büromuzda müvekkillerimiz aleyhine oluşabilecek tüm
+                hukuki riskler, risk ortaya çıkmadan öngörebilmek için
+                çalışılmakta, “Koruyucu Avukatlık” olarak nitelendirilebilecek
+                bu proaktif yaklaşımımızla, müvekkillerimiz aleyhine
+                oluşabilecek tüm hukuki riskler azaltılmaya çalışılmaktadır.
+              </p>
+              <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                Yüksek tecrübe ve enerjimiz ile sizi anlayan ve sıkıntılarınıza
+                yaratıcı çözümler sunan bir hukuk bürosu olarak, bireysel ve
+                kurumsal ayrım gözetmeksizin tüm müvekkillerimizin hukuki
+                sorunlarını, hızlı bir şekilde ve üstün hizmet anlayışıyla
+                çözmek, risklerini azaltmak en önemli amacımızdır.
               </p>
             </li>
           </ol>

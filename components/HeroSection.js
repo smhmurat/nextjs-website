@@ -35,7 +35,7 @@ export default function App() {
         modules={[Pagination, Navigation, Autoplay, EffectCoverflow]}
         autoplay={{
           delay: 5000,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         speed={1200}
       >
