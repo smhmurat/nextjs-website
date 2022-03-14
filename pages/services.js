@@ -17,9 +17,9 @@ const services = () => {
         </h1>
         <div className="flex items-center justify-center py-4 ">
           <Tab.Group>
-            <div className="flex items-start justify-start w-full h-[500px]">
+            <div className="flex flex-col items-start justify-center lg:flex-row w-full h-[500px] lg:h-[700px]">
               <Tab.List
-                className="w-1/3 transition-all duration-300 h-full overflow-y-scroll"
+                className="w-full md:w-1/3 transition-all duration-300 h-[200px] lg:h-full overflow-y-scroll"
                 onClick={() => {
                   document.body.scrollTop = 0;
                   document.documentElement.scrollTop = 0;
@@ -38,16 +38,16 @@ const services = () => {
                       )
                     }
                   >
-                    <div className="flex flex-col items-center justify-start lg:flex-row gap-4">
+                    <div className="flex items-center justify-start gap-4">
                       <Image
                         src={service.icon}
                         width={48}
                         height={48}
                         alt={service.title}
                       />
-                      <hr className="w-12 h:2 lg:w-1 lg:h-12 bg-primary-color" />
-                      <div className="flex flex-col items-start">
-                        <h5>{service.title}</h5>
+                      <hr className="w-1 h-12 bg-primary-color" />
+                      <div className="flex flex-col items-start justify-center">
+                        <h5 className="text-sm">{service.title}</h5>
                         <p className="font-normal text-xs">
                           {service.subtitle}
                         </p>
@@ -56,14 +56,14 @@ const services = () => {
                   </Tab>
                 ))}
               </Tab.List>
-              <Tab.Panels className="w-2/3">
+              <Tab.Panels className="w-full md:w-2/3">
                 {Object.values(servicesData).map((service, idx) => (
                   <Tab.Panel
                     key={idx}
                     className={({ selected }) =>
                       classNames(
                         "w-full p-6 leading-5 font-normal text-primary-color",
-                        "focus:outline-none h-[500px] overflow-y-scroll",
+                        "focus:outline-none h-[300px] lg:h-[600px] overflow-y-scroll",
                         selected ? "bg-cloud-color" : "bg-white"
                       )
                     }

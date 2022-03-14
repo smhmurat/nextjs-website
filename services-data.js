@@ -101,49 +101,49 @@ const services = [
       'icon': '/images/assets/services/eticaret.png',
       'img': '/images/assets/services-img/genel.jpg',
       'title': 'E-Ticaret Hukuku',
-      'subtitle': 'Tıbbi Müdahale, Tedavi Hakkı',
+      'subtitle': 'Null',
       'desc': 'empty'
     },
     {
       'icon': '/images/assets/services/bilisim.png',
       'img': '/images/assets/services-img/genel.jpg',
       'title': 'Bilişim Hukuku',
-      'subtitle': 'Tıbbi Müdahale, Tedavi Hakkı',
+      'subtitle': 'Null',
       'desc': 'empty'
     },
     {
       'icon': '/images/assets/services/kisiselveri.png',
       'img': '/images/assets/services-img/genel.jpg',
       'title': 'Kişisel Verilerin Korunması',
-      'subtitle': 'Tıbbi Müdahale, Tedavi Hakkı',
+      'subtitle': 'Null',
       'desc': 'empty'
     },
     {
       'icon': '/images/assets/services/sozlesme.png',
       'img': '/images/assets/services-img/genel.jpg',
       'title': 'Sözleşmeler Hukuku',
-      'subtitle': 'Tıbbi Müdahale, Tedavi Hakkı',
+      'subtitle': 'Null',
       'desc': 'empty'
     },
     {
       'icon': '/images/assets/services/insanhaklari.png',
       'img': '/images/assets/services-img/genel.jpg',
       'title': 'İnsan Hakları Hukuku',
-      'subtitle': 'Tıbbi Müdahale, Tedavi Hakkı',
+      'subtitle': 'Null',
       'desc': 'empty'
     },
     {
       'icon': '/images/assets/services/kent.png',
       'img': '/images/assets/services-img/genel.jpg',
       'title': 'Kentsel Dönüşüm Hukuku',
-      'subtitle': 'Tıbbi Müdahale, Tedavi Hakkı',
+      'subtitle': 'Null',
       'desc': 'empty'
     },
     {
       'icon': '/images/assets/services/esya.png',
       'img': '/images/assets/services-img/genel.jpg',
       'title': 'Eşya Hukuku',
-      'subtitle': 'Tıbbi Müdahale, Tedavi Hakkı',
+      'subtitle': 'Null',
       'desc': 'empty'
     }
   ]
