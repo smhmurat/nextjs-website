@@ -19,7 +19,7 @@ const services = () => {
           <Tab.Group>
             <div className="flex flex-col items-start justify-center lg:flex-row w-full h-[500px] lg:h-[700px]">
               <Tab.List
-                className="w-full md:w-1/3 transition-all duration-300 h-[200px] lg:h-full overflow-y-scroll"
+                className="w-full md:w-1/3 transition-all duration-300 h-[140px] lg:h-full overflow-y-scroll"
                 onClick={() => {
                   document.body.scrollTop = 0;
                   document.documentElement.scrollTop = 0;
@@ -38,7 +38,7 @@ const services = () => {
                       )
                     }
                   >
-                    <div className="flex items-center justify-start gap-4">
+                    <div className="flex items-center justify-start gap-2 md:gap-4">
                       <Image
                         src={service.icon}
                         width={48}
@@ -63,7 +63,7 @@ const services = () => {
                     className={({ selected }) =>
                       classNames(
                         "w-full p-6 leading-5 font-normal text-primary-color",
-                        "focus:outline-none h-[300px] lg:h-[600px] overflow-y-scroll",
+                        "focus:outline-none h-[360px] lg:h-[600px] overflow-y-scroll",
                         selected ? "bg-cloud-color" : "bg-white"
                       )
                     }

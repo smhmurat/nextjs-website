@@ -4,7 +4,7 @@ import About from '../components/About'
 import Services from '../components/Services'
 import Blog from '../components/Blog'
 
-export default function Home() {
+function HomePage() {
   return (
     <div>
       <HeroSection />
@@ -15,3 +15,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default HomePage

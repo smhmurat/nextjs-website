@@ -25,15 +25,20 @@ export default function Footer() {
           </div>
           <div className="flex flex-col gap-4">
             <h6 className="font-semibold text-brand-color">E-bülten Kayıt</h6>
-            <input
-              type="mail"
-              className="w-full h-8 rounded p-2 text-primary-color"
-              placeholder="E-posta Adresi"
-            ></input>
-            <p>
-              E-bülten listemize kayıt olarak hukuk hizmetlerimizden haberdar
-              olabilirsiniz!
-            </p>
+            <div>
+              <input
+                type="mail"
+                className="w-full h-8 rounded p-2 text-primary-color"
+                placeholder="E-posta Adresi"
+              ></input>
+              <p>
+                E-bülten listemize kayıt olarak hukuk hizmetlerimizden haberdar
+                olabilirsiniz!
+              </p>
+            </div>
+            <div>
+              {/* Map */}
+            </div>
           </div>
           <div className="flex flex-col items-start justify-start gap-4">
             <h6 className="font-semibold text-brand-color">Bize Ulaşın</h6>

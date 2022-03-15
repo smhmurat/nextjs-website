@@ -64,7 +64,7 @@ const handleClick = (open, setOpen) => {
 
 function MobileNav({open, setOpen}) {
   return (
-        <div className={`absolute top-0 left-0 w-screen bg-primary-color pb-24 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-500 ease-in-out filter z-10`}>
+        <div className={`absolute left-0 top-0 w-screen flex flex-col justify-between bg-primary-color pb-24 transform ${open ? "fixed left-0 top-0 -translate-x-0 overflow-hidden min-h-full" : "-translate-x-full min-h-full"} transition-transform duration-500 ease-in-out filter z-10 `}>
             <div className="flex flex-col mx-4 mt-24 text-brand-color max-w-full">
                 <Link href="/" >
                     <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>ANASAYFA</a>
@@ -82,7 +82,7 @@ function MobileNav({open, setOpen}) {
                     <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>İLETİŞİM</a>
                 </Link>
             </div> 
-            <div className='flex items-center justify-center gap-x-6 mx-4 mt-6'>
+            <div className='flex items-center justify-evenly gap-x-6 mx-4 mt-6'>
                 {socialMenu.map((item, index) => <SocialMenuItem key={index} href={item.href} name={item.name} icon={item.icon} />)}
             </div>
         </div>
@@ -94,9 +94,9 @@ export default function Navbar() {
 
     return (
         <div className="flex items-center justify-between filter bg-gradient-to-b from-primary-color to-secondary-color px-4 py-4 text-white">
-            <MobileNav open={open} setOpen={setOpen}/>
-            <div className='container mx-auto'>
+            <div className='container mx-auto overflow-hidden'>
               <div className="flex items-center justify-between w-full z-30">
+                <MobileNav open={open} setOpen={setOpen}/>
                 <Link href='/'>
                     <a className='z-50'>
                         <Image src='/images/logo.svg' width={241} height={64} alt='logo'/>
