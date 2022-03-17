@@ -49,10 +49,17 @@ const services = [
       'desc': 'Murat Hukuk & Danışmanlık, imar planı süreçlerini de takip ederek, gayrimenkul konularından kaynaklanan ihtilafların çözümü için yargı mercileri nezdinde müvekkillerini temsil etmektedir. Mülkiyet sahiplerine ve yatırımcılara gayrimenkul projelerinin hukuki risklerinin anlaşılması ve önleyici uygulamalar, projelerin  hukuki açıdan ele alınması ve yatırımcı gözü ile fizibilitesi, gayrimenkul değerleme yöntemleri ve bu yöntemlerin  gayrimenkul geliştirmeye etkileri, mülkiyetin devri ve yönetimi konularında da danışmanlık hizmeti vermenin yanı sıra emlak alım satımı, kiralama, ayni ya da şahsi hak tesisi gibi çeşitli işlemlerin yapılması ve bunlara dair görüşmelerin yürütülmesi hususlarında da hizmet verilmektedir.'
     },
     {
+      'icon': '/images/assets/services/esya.png',
+      'img': '/images/assets/services-img/miras.jpg',
+      'title': 'Miras Hukuku',
+      'subtitle': 'İzaleyi Şuyu, Reddi Miras, Muvazaa',
+      'desc': 'Miras hukuku, genel bir anlatımla bir kişinin ölümünün ardından ölüm ile sona ermeyen, mal varlıksal değeri olan mallarının ne şekilde ve kimlere devredileceğini düzenler. Miras hukuku miras bırakanın ölümü ile mallarının intikal etmesi sürecine temas eden her türlü durumu düzenlemiştir. Buna bağlı olarak miras bırakanın ölmeden önce ölüme bağlı olarak gerçekleşecek sonuçları düzenlemesi, vasiyetname hazırlaması, istemediği kişiyi mirasçılıktan çıkarması, miras sözleşmesi yapması, vasiyeti tenfiz memuru ataması, tasarruf nisabı üzerinde dilediğince tasarruf edebilmesi gibi ölümden önce yapılacak işler ile miras bırakanın ölümüyle kimlerin külli halef sıfatı ile mirasa hak kazandığını, miras paylarının ne şekilde olacağını, miras mallarının idaresinin nasıl yapılacağını, mirasın reddini, mirastan feragat etmeyi ve en önemlisi tenkis hesabı (kim ne kadar değer alacak) yapmayı, tasfiye sürecinin yapılıp malların paylaştırılması gibi hükümleri kapsamaktadır. Miras ölen kişiden kalan tüm hak, mal, para alacak ve borçlarını kapsar. Miras paylaşımı aile içi ve akrabalar arasında en çok probleme yol açan konulardan biridir. Miras Davaları genellikle mirastan mal kaçırma, vasiyetnamenin reddi ve iptali, borçluya kalan taşınmaz malların alacaklı tarafından ortaklığının giderilmesi gibi çeşitli konularda olabilir.'
+    },
+    {
       'icon': '/images/assets/services/ceza.png',
-      'img': '/images/assets/services-img/ticaret.jpg',
+      'img': '/images/assets/services-img/ceza.jpg',
       'title': 'Ceza Hukuku',
-      'subtitle': 'Şikayet, Tutuklanma, Müdafi',
+      'subtitle': 'Şikayet, Tutuklama, Müdafi',
       'desc': 'Murat Hukuk & Danışmanlık, soruşturmalar ve kovuşturmalar kapsamında şüpheli yahut sanık olan ya da suçtan zarar gören veya suçun mağduru olan bireylere hukuki yardımda bulunmaktadır. Ceza hukuku süreçlerinde müvekkillerine hukuki yardımda bulunan hukuk büromuz başta gözaltı, tutuklama, gözlem altına alma, arama veya el koyma kararlarının alındığı durumlar olmak üzere ceza soruşturması ve kovuşturmasının her anında müvekkillerimizin yanında olmakta; ifade veya savunma verilirken müvekkillerinin yanında yer almak ve tutukluluk kararı gibi kararlara itiraz etmek da dahil olmak üzere ceza hukuku soruşturması ve ceza hukuku yargılaması kapsamında gerçekleştirilen tüm işlemlerde müvekkillerine hukuki destek vermektedir.'
     },
     {
@@ -64,14 +71,14 @@ const services = [
     },
     {
       'icon': '/images/assets/services/idare.png',
-      'img': '/images/assets/services-img/ticaret.jpg',
+      'img': '/images/assets/services-img/idare.jpg',
       'title': 'İdare Hukuku',
-      'subtitle': 'İptal-Tam Yargı Davası, Yürütmenin Durdurulması',
+      'subtitle': 'İptal-Tam Yargı, Yürütmenin Durdurulması',
       'desc': 'empMurat Hukuk & Danışmanlık, hukuka aykırı şekilde tesis edilen idari işlemler veya idari eylemler nedeniyle müvekkillerimizin mağduriyet yaşamasını önlemek ve oluşan mağduriyetlerini gidermek amacıyla hizmet vermekte, tesis edilen işlem ve eylemlere karşı İdare Mahkemeleri ve Danıştay nezdinde dava açılması ve açılan davaların takibi işlemlerini yürütmektedir.'
     },
     {
       'icon': '/images/assets/services/vergi.png',
-      'img': '/images/assets/services-img/ticaret.jpg',
+      'img': '/images/assets/services-img/vergi.jpg',
       'title': 'Vergi Hukuku',
       'subtitle': 'İhbarname, Ödeme Emri, Vergi Ziyaı',
       'desc': 'Murat Hukuk & Danışmanlık, Vergi Hukuku alanında sorunu olan müvekkilleri adına Vergi Daireleri nezdinde uzlaşma görüşmelerini yürütmekte ve düzeltme taleplerini takip etmekte, ayrıca haklarında vergi cezası tahakkuk ettirilmiş müvekkiller adına Vergi Ceza İhbarnamesinin ve Ödeme Emrinin İptali davalarını yürütmekte, Vergi Ziyaı ve Kaçakçılık suçlaması ile karşı karşıya kalan müvekkillerini ceza mahkemeleri nezdinde temsil etmektedir.'
@@ -99,52 +106,45 @@ const services = [
     },
     {
       'icon': '/images/assets/services/eticaret.png',
-      'img': '/images/assets/services-img/genel.jpg',
+      'img': '/images/assets/services-img/eticaret.jpg',
       'title': 'E-Ticaret Hukuku',
-      'subtitle': 'Null',
-      'desc': 'empty'
+      'subtitle': 'Sosyal Medya, Hizmet Sağlayıcı, Üyelik',
+      'desc': 'Son yıllarda Türkiye’de ve Dünya’da altın çağını yaşayan, nihai tüketiciye ulaşmada geleneksel mağazacılığın önüne geçerek ticaretin en aktif kanalı haline gelen ve bu büyümeyle birlikte değişim ve gelişimini son sürat sürdüren e-ticaret sektörü; fikri mülkiyet haklarının korunması, e-ticaret hukuku, sözleşmesel ilişkilerden doğan hak ve yükümlülüklerin hukuka uygunluğu, mahremiyet, veri güvenliği ihlalleri ve rekabet hukuku ve e-ticarette kişisel verilerin korunması konuları ile ilgili çok sayıda hukuki düzenlemeye ilişkin kaygıyı da beraberinde getirmektedir. Tüm bunlar, her bir e-ticaret paydaşı bakımından e-ticaret dünyasında sürekli yenilenen ve değişen düzenlemelerin ve yasal yükümlülüklerin hassasiyetle takip edilmesi ve proaktif bir yaklaşım benimsenmesi gerekliliğini doğurmaktadır.'
     },
     {
       'icon': '/images/assets/services/bilisim.png',
-      'img': '/images/assets/services-img/genel.jpg',
+      'img': '/images/assets/services-img/bilisim.jpg',
       'title': 'Bilişim Hukuku',
-      'subtitle': 'Null',
-      'desc': 'empty'
+      'subtitle': 'Siber Suçlar, Hakaret-Şantaj',
+      'desc': 'Günümüzde teknolojinin yaygınlaşmasıyla teknolojik ortamda suç işleme de yaygın bir hale gelmiştir. Teknoloji ve bilgi ortamının kötüye kullanılması, hukuka aykırı durumların oluşmasının engellenmesi için bilişim hukuku ile ilgili düzenlenmeler hayata geçirilmiştir. Bilişim sistemleri ve ağları olarak bilinen yayın organlarında ve özellikle de internette kullanılan tüm ilişkiler bilişim hukukunun ilgi alanına girer. Bu konulardaki hak ve hukuk bilişim hukuku tarafından düzenleme altına alınır. Bilinen diğer hukuk dallarının hemen hepsinin bilişim hukuku ile doğrudan doğruya ilişkisi vardır. Özellikle internet yayınları açısından özel hayatın gizliliğine saygı hakkı veya kişisel verilerin korunması hakkı gibi temel hak ve özgürlüklerin ihlal edilmesi gündeme gelebilmektedir.'
     },
     {
       'icon': '/images/assets/services/kisiselveri.png',
-      'img': '/images/assets/services-img/genel.jpg',
+      'img': '/images/assets/services-img/kisisel.jpg',
       'title': 'Kişisel Verilerin Korunması',
-      'subtitle': 'Null',
-      'desc': 'empty'
+      'subtitle': 'Kişisel Veri, Veri Sorumlusu',
+      'desc': 'Bilgi, modern yasamın en önemli değerlerinden biridir. Her gün, devlet kurumları ve özel kuruluşlar; bireyler hakkında önemli miktarda veriyi toplamakta, saklamakta, işlemekte ve nakletmektedirler. Teknolojinin gelişmesi, kişilerin bilgiyi paylaşması ve dünya çapında yaymasına izin verecek şekilde; kişilerin bilgilerinin kontrolünü kaybederek, kendilerine karşı kullanılması gibi tehlikeli durumların oluşmasına sebep olmaktadır. Kişisel verilerin korunması, bireylerin verilerinin başka kişi veya kuruluşlar tarafından yetkisiz kullanımına karsı sahip oldukları bir haktır. 6098 sayılı Kişisel Verilerin Korunması Kanunu’nun (KVKK) kabulü ile ülkemizde de yeni bir döneme girilmiş olup, anılan Kanun vatandaşları, veri sorumlusu olarak tanımladığı gerçek ve tüzel kişilere karşı birtakım haklarla donatırken veri sorumlularına da birtakım yükümlülükler getirmiştir. Bu yükümlülükler şirketlerin özellikle bilgi işlem ve insan kaynakları birimlerini ilgilendirmektedir.'
     },
     {
       'icon': '/images/assets/services/sozlesme.png',
-      'img': '/images/assets/services-img/genel.jpg',
+      'img': '/images/assets/services-img/sozlesme.jpg',
       'title': 'Sözleşmeler Hukuku',
-      'subtitle': 'Null',
-      'desc': 'empty'
+      'subtitle': 'Sözleşme Metni, İradeye Uygunluk',
+      'desc': 'Sözleşme, tarafların belli bir hukuki sonuç doğurmaya yönelik karşılıklı ve birbirine uygun irade açıklamalarından oluşan hukuki bir işlemdir. Sözleşmeye taraf olanlar istedikleri şekilde sözleşmeyi düzenleme özgürlüğüne sahiptir. Ancak, kanunun emredici hükümlerine aykırı düzenleme getirilemez. Sözleşme hukuku diye bir dal olmamasına rağmen tüm hukuk dallarında sözleşmelerden bahsedilmiştir. Sözleşme hükümleri, sonuçları ve yaptırımları ile alakalı pek çok hüküm bulunur. Bu hükümler çeşitli kanunlara yayılmıştır. Özellikle, Türk Medeni Kanunu ve Borçlar Kanunu’nda, Ticaret Kanunu’nda, İş Kanunu’nda, Tüketici Kanunu’nda özel olarak yer verilen bazı sözleşme türlerine rastlarız.Sözleşmeler Hukuku ticaretin artması ve uluslararası ticaretin her geçen gün yaygınlaşmasıyla önemi daha fazla artan bir konu haline gelmiştir. Geçmişte sözü senet kabul eden ve yazılı sözleşmelere gerek duymayan insanlar günümüzde çıkan sorunların artması ve güvenin azalmasıyla yazılı sözleşmeler yapmaya başlamıştır. Nitekim Sözleşmeler Hukuku, tarafların imzaladığı sözleşmelere bağlı kalmalarını ve herhangi bir tarafın haksızlığa uğramaması amacıyla kişi haklarını korumakla yükümlüdür. Taraflardan biri yazılı bir belge olan sözleşme ile haksızlığa uğradığında Sözleşmeler Hukuku kapsamında mağduriyetini giderme hakkına sahiptir. Yani; Sözleşmeler Hukuku; sözleşmeler kapsamında tarafların haklarını koruyan ve haksızlığını engelleyen hukuk alanıdır.'
     },
     {
       'icon': '/images/assets/services/insanhaklari.png',
-      'img': '/images/assets/services-img/genel.jpg',
+      'img': '/images/assets/services-img/insan-haklari.jpg',
       'title': 'İnsan Hakları Hukuku',
-      'subtitle': 'Null',
-      'desc': 'empty'
+      'subtitle': 'Bireysel Başvuru, AYM, AHİM',
+      'desc': 'İnsan hakları; tüm insanların hiçbir ayrım gözetmeksizin yalnızca insan oluşlarından dolayı eşit, özgür ve onurlu yaşama hakkına sahip olmasıdır. İnsan haklarının temelini 10 Aralık 1948 tarihli İnsan Hakları Evrensel Beyannamesi ile 04 Kasım 1950 tarihli Avrupa İnsan Hakları Sözleşmesi oluşturmaktadır. Türkiye tarafından 1954’te onaylanmış olan ve iç mevzuatımızın bir parçasını oluşturan Avrupa İnsan Hakları Sözleşmesi, temel hak ve özgürlükleri: yaşama hakkı, işkence, insanlık dışı veya küçültücü muamele yasağı, kölelik ve zorla çalıştırma yasağı, kişi özgürlüğü ve güvenliği, hak arama özgürlüğü ve adil yargılanma hakkı, suç ve cezaların kanuniliği, özel hayat, aile hayatı ve haberleşmenin gizliliği, düşünce, din ve vicdan özgürlüğü, ifade özgürlüğü, toplantı, dernek ve sendika kurma özgürlüğü, evlenme ve aile kurma hakkı, şikayet hakkı, ayrım yapma yasağı olarak belirlemiştir. Daha sonra toplum yaşamında meydana gelen gelişmelere paralel olarak düzenlenen protokollerle bu haklara: mülkiyet hakkı, eğitim ve öğrenim hakkı, seçim hakkı, yerleşme ve seyahat özgürlüğü gibi yeni haklar eklenmiştir.'
     },
     {
       'icon': '/images/assets/services/kent.png',
-      'img': '/images/assets/services-img/genel.jpg',
+      'img': '/images/assets/services-img/kent.jpg',
       'title': 'Kentsel Dönüşüm Hukuku',
-      'subtitle': 'Null',
-      'desc': 'empty'
-    },
-    {
-      'icon': '/images/assets/services/esya.png',
-      'img': '/images/assets/services-img/genel.jpg',
-      'title': 'Eşya Hukuku',
-      'subtitle': 'Null',
-      'desc': 'empty'
+      'subtitle': 'Riskli Yapı, Kira Yardımı',
+      'desc': 'Türkiye’de ve Türk hukukunda kentsel dönüşüm kavramı 16/5/2012 tarihli ve 6306 sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Hakkında Kanun ile kullanılmaya başlanılmıştır. Kentsel dönüşüm, afet riski altındaki alanlar ile bu alanlar dışındaki riskli yapıların bulunduğu arsa ve arazilerde, fen ve sanat norm ve standartlarına uygun, sağlıklı ve güvenli yaşama çevrelerini teşkil etmek üzere iyileştirme, tasfiye ve yenilemeler yapılmasıdır. Kentsel Dönüşüm kapsamında başta Kat Karşılığı İnşaat Sözleşmeleri olmak üzere yapılacak iş ve işlemlere ilişkin sözleşmeler ve diğer iş ve işlemler, Kentsel Dönüşüm Hukukunun konusuna girmesinin yanı sıra Borçlar Hukuku, İmar Hukuku, Ticaret Hukuku, Sözleşmeler Hukuku ve diğer ilgili hukuk dallarını ilgilendiren sözleşmeler girmektedir. Murat Hukuk & Danışmanlık olarak adil bir kentsel dönüşümü sağlamak, ilgili hukuki mevzuatın sunduğu teşvik ve uygulamalardan yeterince faydalanmak, bu kapsamda "Koruyucu Avukatlık Hizmetleri” dâhil her türlü hukuki destek sağlanmakta, dava vekilliği ve danışmanlık hizmeti sunulmaktadır.'
     }
   ]
 

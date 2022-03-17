@@ -16,7 +16,7 @@ const menu = [
             'name': 'Hakkımızda'
         },
         {
-            'href': '/services',
+            'href': '/calisma-alanlarimiz',
             'name': 'Çalışma Alanlarımız'
         },
         {
@@ -72,7 +72,7 @@ function MobileNav({open, setOpen}) {
                 <Link href="/about" >
                     <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>HAKKIMIZDA</a>
                 </Link>
-                <Link href="/services" >
+                <Link href="/calisma-alanlarimiz" >
                     <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>ÇALIŞMA ALANLARIMIZ</a>
                 </Link>
                 <Link href="/blog" >

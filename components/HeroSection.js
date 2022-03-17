@@ -39,6 +39,16 @@ export default function App() {
         }}
         speed={1200}
       >
+      <SwiperSlide>
+          <Image
+              src="/images/banner-img2.jpg"
+              width={1440}
+              height={720}
+              layout="responsive"
+              alt="img1"
+              objectFit="cover"
+            />
+        </SwiperSlide>
         <SwiperSlide>
           <div className='relative'>
             <Image
@@ -57,16 +67,6 @@ UZUN SÜRELİ VE KALICI ÇALIŞMA SAĞLAMAKTIR.
               </p>
             </div>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-              src="/images/banner-img2.jpg"
-              width={1440}
-              height={720}
-              layout="responsive"
-              alt="img1"
-              objectFit="cover"
-            />
         </SwiperSlide>
         <SwiperSlide>
           <Image

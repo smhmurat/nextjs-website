@@ -8,10 +8,10 @@ const Services = () => {
   return (
     <div className='bg-cloud-color w-full py-24 backdrop-opacity-20'>
       <div className='container mx-auto'>
-        <h2 className="title-font sm:text-4xl text-3xl font-medium text-primary-color text-center">Çalışma Alanlarımız</h2>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center space-y-8 w-full'>
+        <h2 className="title-font sm:text-4xl text-3xl font-medium text-primary-color text-center mb-4 lg:mb-8">Çalışma Alanlarımız</h2>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-y-8 w-full mt-0'>
           {servicesData.map((item, index) => (
-              <Link key={index}  href='/services'>
+              <Link key={index}  href='/calisma-alanlarimiz'>
                 <a className='flex items-center justify-start gap-4 w-4/5 '>
                   <Image src={item.icon} width={64} height={64} alt={item.title}/>
                   <hr className='w-1 h-12 bg-primary-color' />

@@ -20,7 +20,7 @@ export default function Footer() {
               </a>
             </Link>
             <p className="text-sm">
-              Murat Hukuk & Danışmanlık, Avukat Beytullah MURAT tarafından 2021 yılında kurulmuştur. Büromuz, yerli ve yabancı müvekkillerine, ticari yaklaşımlara ve kişisel özelliklere uygun, çözüm odaklı, kapsamlı hukuki danışmanlık ve dava takip hizmetleri sunmakta, dürüşt, şeffaf, müvekkil odaklı seçkin bir hukuki destek sağlamaktadır. Hukuk Büromuz çalışmalarını özellikle Ticaret Hukuku, Şirketler Hukuku, Gayrimenkul Hukuku, İş Hukuku, Aile Hukuku, Tüketici Hukuku, İcra ve İflas Hukuku, Miras Hukuku, Eşya Hukuku, Sigorta ve Tazminat Hukuku, Ceza Hukuku, İdare ve Vergi Hukuku alanlarında yoğunlaştırmakla birlikte, müvekkillerine her türlü hukuki destek ve danışmanlığı profesyonel çizgisinden ödün vermeden sunmaktadır. Bu web sitesini, büromuza, avukatlarımıza ve iletişim bilgilerimize ulaşmak için kullanabilir, yayınlarımızdan ve hukuki gelişmelere ilişkin haberlerden yararlanabilirsiniz.
+              Murat Hukuk & Danışmanlık, Avukat Beytullah MURAT tarafından 2021 yılında kurulmuştur. Büromuz, yerli ve yabancı müvekkillerine, ticari yaklaşımlara ve kişisel özelliklere uygun, çözüm odaklı, kapsamlı hukuki danışmanlık ve dava takip hizmetleri sunmakta, dürüst, şeffaf, müvekkil odaklı seçkin bir hukuki destek sağlamaktadır. Hukuk Büromuz çalışmalarını özellikle Ticaret Hukuku, Şirketler Hukuku, Gayrimenkul Hukuku, İş Hukuku, Aile Hukuku, Tüketici Hukuku, İcra ve İflas Hukuku, Miras Hukuku, Kira Hukuku, Sigorta ve Tazminat Hukuku, Ceza Hukuku, İdare ve Vergi Hukuku alanlarında yoğunlaştırmakla birlikte, müvekkillerine her türlü hukuki destek ve danışmanlığı profesyonel çizgisinden ödün vermeden sunmaktadır. Bu web sitesini, büromuza, avukatlarımıza ve iletişim bilgilerimize ulaşmak için kullanabilir, yayınlarımızdan ve hukuki gelişmelerden haberdar olabilirsiniz.
             </p>
           </div>
           <div className="flex flex-col gap-4">
@@ -49,10 +49,6 @@ export default function Footer() {
             <a className='flex items-center justify-start w-full gap-x-6' href="tel:+903524083448">
               <FiPhone />
               <span>(0352) 408 34 48</span>
-            </a>
-            <a className='flex items-center justify-start w-full gap-x-6' href="tel:+905327935666">
-              <FiPhone />
-              <span>(0532) 793 56 66</span>
             </a>
             <a className='flex items-center justify-start flex-nowrap w-full gap-x-6'>
               <FiMapPin size={36}/>

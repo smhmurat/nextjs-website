@@ -10,7 +10,8 @@ const About = () => {
           <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-primary-color">Hakkımızda
           </h2>
           <p className="mb-4 text-xl font-normal text-primary-color ">
-                Avukat Beytullah MURAT İstanbul’da üniversite dönemi ve sonrasında yaptığı işlerde kazandığı tecrübe sonucunda 2021 yılında Kayseri’ye gelerek Murat Hukuk & Danışmanlık Bürosunu kurmuştur.
+                Avukat Beytullah MURAT İstanbul Üniversitesi döneminde ve
+                sonrasında İstanbul&apos;da yaptığı işlerde kazandığı tecrübe sonucunda 2021 yılında Kayseri’ye gelerek Murat Hukuk & Danışmanlık Bürosunu kurmuştur.
               </p>
               <p className="mb-4 text-xl font-normal text-primary-color">
                 Murat Hukuk & Danışmanlık Bürosu, yerli ve yabancı müvekkillerine, ticari yaklaşımlara ve kişisel özelliklere uygun, çözüm odaklı, kapsamlı hukuki danışmanlık ve dava takip hizmetleri sunmakta, dürüşt, şeffaf, müvekkil odaklı seçkin bir hukuki destek sağlamaktadır.

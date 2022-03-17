@@ -1,11 +1,12 @@
 import React from 'react'
+import Blog from '../components/Blog'
 
-const blog = () => {
+const BlogPage = () => {
   return (
     <div>
-      Blog Sayfasi
+      <Blog />
     </div>
   )
 }
 
-export default blog
+export default BlogPage
