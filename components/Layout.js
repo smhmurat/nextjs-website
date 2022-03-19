@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div>
+      <div className='mt-[100px] lg:mt-20'>
         <main>
           {children}
         </main>

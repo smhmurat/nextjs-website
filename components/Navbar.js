@@ -12,7 +12,7 @@ const menu = [
             'name': 'Anasayfa'
         },
         {
-            'href': '/about',
+            'href': '/hakkimizda',
             'name': 'Hakkımızda'
         },
         {
@@ -24,7 +24,7 @@ const menu = [
             'name': 'BLOG'
         },
         {
-            'href': '/contact',
+            'href': '/iletisim',
             'name': 'İLETİŞİM'
         }
     ]
@@ -69,7 +69,7 @@ function MobileNav({open, setOpen}) {
                 <Link href="/" >
                     <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>ANASAYFA</a>
                 </Link>
-                <Link href="/about" >
+                <Link href="/hakkimizda" >
                     <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>HAKKIMIZDA</a>
                 </Link>
                 <Link href="/calisma-alanlarimiz" >
@@ -78,7 +78,7 @@ function MobileNav({open, setOpen}) {
                 <Link href="/blog" >
                     <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>BLOG</a>
                 </Link>
-                <Link href="/contact" >
+                <Link href="/iletisim" >
                     <a className="cursor-pointer text-white p-6 text-sm hover:text-brand-color border-b border-b-white"  onClick={() => handleClick(open, setOpen)}>İLETİŞİM</a>
                 </Link>
             </div> 

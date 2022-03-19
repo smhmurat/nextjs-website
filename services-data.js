@@ -115,14 +115,14 @@ const services = [
       'icon': '/images/assets/services/bilisim.png',
       'img': '/images/assets/services-img/bilisim.jpg',
       'title': 'Bilişim Hukuku',
-      'subtitle': 'Siber Suçlar, Hakaret-Şantaj',
+      'subtitle': 'Siber Suçlar, Unutulma Hakkı',
       'desc': 'Günümüzde teknolojinin yaygınlaşmasıyla teknolojik ortamda suç işleme de yaygın bir hale gelmiştir. Teknoloji ve bilgi ortamının kötüye kullanılması, hukuka aykırı durumların oluşmasının engellenmesi için bilişim hukuku ile ilgili düzenlenmeler hayata geçirilmiştir. Bilişim sistemleri ve ağları olarak bilinen yayın organlarında ve özellikle de internette kullanılan tüm ilişkiler bilişim hukukunun ilgi alanına girer. Bu konulardaki hak ve hukuk bilişim hukuku tarafından düzenleme altına alınır. Bilinen diğer hukuk dallarının hemen hepsinin bilişim hukuku ile doğrudan doğruya ilişkisi vardır. Özellikle internet yayınları açısından özel hayatın gizliliğine saygı hakkı veya kişisel verilerin korunması hakkı gibi temel hak ve özgürlüklerin ihlal edilmesi gündeme gelebilmektedir.'
     },
     {
       'icon': '/images/assets/services/kisiselveri.png',
       'img': '/images/assets/services-img/kisisel.jpg',
       'title': 'Kişisel Verilerin Korunması',
-      'subtitle': 'Kişisel Veri, Veri Sorumlusu',
+      'subtitle': 'Kişisel Veri, Veri Sorumlusu, VERBİS',
       'desc': 'Bilgi, modern yasamın en önemli değerlerinden biridir. Her gün, devlet kurumları ve özel kuruluşlar; bireyler hakkında önemli miktarda veriyi toplamakta, saklamakta, işlemekte ve nakletmektedirler. Teknolojinin gelişmesi, kişilerin bilgiyi paylaşması ve dünya çapında yaymasına izin verecek şekilde; kişilerin bilgilerinin kontrolünü kaybederek, kendilerine karşı kullanılması gibi tehlikeli durumların oluşmasına sebep olmaktadır. Kişisel verilerin korunması, bireylerin verilerinin başka kişi veya kuruluşlar tarafından yetkisiz kullanımına karsı sahip oldukları bir haktır. 6098 sayılı Kişisel Verilerin Korunması Kanunu’nun (KVKK) kabulü ile ülkemizde de yeni bir döneme girilmiş olup, anılan Kanun vatandaşları, veri sorumlusu olarak tanımladığı gerçek ve tüzel kişilere karşı birtakım haklarla donatırken veri sorumlularına da birtakım yükümlülükler getirmiştir. Bu yükümlülükler şirketlerin özellikle bilgi işlem ve insan kaynakları birimlerini ilgilendirmektedir.'
     },
     {
@@ -143,7 +143,7 @@ const services = [
       'icon': '/images/assets/services/kent.png',
       'img': '/images/assets/services-img/kent.jpg',
       'title': 'Kentsel Dönüşüm Hukuku',
-      'subtitle': 'Riskli Yapı, Kira Yardımı',
+      'subtitle': 'Riskli Yapı, Kira Yardımı, İnşaat Sözleşmesi',
       'desc': 'Türkiye’de ve Türk hukukunda kentsel dönüşüm kavramı 16/5/2012 tarihli ve 6306 sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Hakkında Kanun ile kullanılmaya başlanılmıştır. Kentsel dönüşüm, afet riski altındaki alanlar ile bu alanlar dışındaki riskli yapıların bulunduğu arsa ve arazilerde, fen ve sanat norm ve standartlarına uygun, sağlıklı ve güvenli yaşama çevrelerini teşkil etmek üzere iyileştirme, tasfiye ve yenilemeler yapılmasıdır. Kentsel Dönüşüm kapsamında başta Kat Karşılığı İnşaat Sözleşmeleri olmak üzere yapılacak iş ve işlemlere ilişkin sözleşmeler ve diğer iş ve işlemler, Kentsel Dönüşüm Hukukunun konusuna girmesinin yanı sıra Borçlar Hukuku, İmar Hukuku, Ticaret Hukuku, Sözleşmeler Hukuku ve diğer ilgili hukuk dallarını ilgilendiren sözleşmeler girmektedir. Murat Hukuk & Danışmanlık olarak adil bir kentsel dönüşümü sağlamak, ilgili hukuki mevzuatın sunduğu teşvik ve uygulamalardan yeterince faydalanmak, bu kapsamda "Koruyucu Avukatlık Hizmetleri” dâhil her türlü hukuki destek sağlanmakta, dava vekilliği ve danışmanlık hizmeti sunulmaktadır.'
     }
   ]

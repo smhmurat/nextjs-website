@@ -11,7 +11,8 @@ module.exports = {
         'primary-color': '#11172b',
         'secondary-color': '#1D2439',
         'brand-color': '#c8102e',
-        'cloud-color': '#ECF0F1'
+        'cloud-color': '#ECF0F1',
+        'text-color': '#0b1f66'
       },
       fontFamily: {
         sans: ['HelveticaNeue,Helvetica Neue,helvetica', 'sans-serif']

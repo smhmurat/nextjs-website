@@ -10,7 +10,7 @@ function classNames(...classes) {
 
 const ServicesPage = () => {
   return (
-    <section className="mt-5 px-4">
+    <section className="px-4 py-12">
       <div className="container mx-auto">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-primary-color text-center">
           Çalışma Alanlarımız

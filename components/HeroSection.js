@@ -12,7 +12,7 @@ import { Pagination, Navigation, Autoplay, EffectCoverflow } from "swiper";
 
 export default function App() {
   return (
-    <div className="mt-20">
+    <div>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}

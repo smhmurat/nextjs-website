@@ -5,48 +5,51 @@ import Image from "next/image"
 const Blog = () => {
   const blog = [
     {
-      title: "Bosanma Davalari",
-      text: "Lorem ipsum dolor sit amet. Eos dolore fugiat non labore amet aut corrupti quia quo optio inventore At dolorem quia. A consequatur vero vel quis quos nam assumenda asperiores aut omnis quaerat in optio adipisci eos iusto vitae in mollitia quaerat.",
-      tarih: "tarih",
+      img: '/images/assets/blog/cekisme.jpg',
+      title: "ÇEKİŞMELİ BOŞANMA DAVASI",
+      text: "Çekişmeli boşanma davaları, taraflar arasında boşanmaya esas teşkil eden sebeplerin ve taleplerin çekişmeli olduğu, eşlerin boşanmanın hukuki sonuçlarında bir anlaşmaya varamadığı boşanma davalarıdır. Çekişmeli boşanma davası, Türk Medeni Kanun m.161-m.166 arasında düzenlenen hem “genel” hem de “özel” boşanma sebeplerine dayanılarak açılabilmektedir. Çekişmeli boşanma davasında sadece boşanma sebepleri değil, boşanmada hangi tarafın daha kusurlu olduğu, maddi ve manevi tazminat, nafaka, velayet, ev eşyalarının paylaşımı vb. gibi konularda çekişmenin yaşandığı bir dava türüdür. Mal paylaşımından kaynaklanan katılma alacağı veya katkı payı alacağı davaları ise ayrı bir mal paylaşımı davası şeklinde açılmalıdır. Çekişmeli boşanma davası açan davacı, davalı taraftan daha fazla kusurlu ise boşanma davası reddedilir.",
+      tarih: "18.03.2022",
     },
     {
-      title: "Bosanma Davalari",
-      text: "Lorem ipsum dolor sit amet. Eos dolore fugiat non labore amet aut corrupti quia quo optio inventore At dolorem quia. A consequatur vero vel quis quos nam assumenda asperiores aut omnis quaerat in optio adipisci eos iusto vitae in mollitia quaerat.",
-      tarih: "tarih",
+      img: '/images/assets/blog/anlasma.jpg',
+      title: "ANLAŞMALI BOŞANMA DAVASI",
+      text: "Anlaşmalı boşanma davası, en az 1 yıl süren evliliklerde, eşlerin birlikte başvurması ya da bir eşin diğerinin açtığı davayı kabul etmesi hâlinde söz konusu olur. Burada genel ve mutlak bir boşanma sebebi vardır. Şartların gerçekleşmesi halinde hakim boşanmaya karar verir. Çünkü kanun, eşlerin boşanma hususunda anlaşmış olmalarını, evlilik birliğinin temelinden sarsıldığına ve bu durumun ortak hayatın devamının beklenemez hale getirdiğine ilişkin bir faraziye olarak kabul etmiştir. Ancak anlaşmış olma kendiliğinden boşanma sonucunu sağlamamakta, boşanma kararının verilmesi için bir sebep oluşturmaktadır. Boşanmaya karar verilebilmesini kanun bazı ek şartların varlığına bağlamıştır. ",
+      tarih: "18.03.2022",
     },
     {
-      title: "Bosanma Davalari",
-      text: "Lorem ipsum dolor sit amet. Eos dolore fugiat non labore amet aut corrupti quia quo optio inventore At dolorem quia. A consequatur vero vel quis quos nam assumenda asperiores aut omnis quaerat in optio adipisci eos iusto vitae in mollitia quaerat.",
-      tarih: "tarih",
+      img: '/images/assets/blog/kira.jpg',
+      title: "KİRA SÖZLEŞMESİ VE KİRA ARTIŞ ORANI",
+      text: "Kira sözleşmesi, kiraya verenin bir şeyin kullanılmasını veya kullanmayla birlikte ondan yararlanılmasını kiracıya bırakmayı, kiracının da buna karşılık kararlaştırılan kira bedelini ödemeyi üstlendiği sözleşmedir.Kira sözleşmesi, belirli ve belirli olmayan bir süre için yapılabilir. Kararlaştırılan sürenin geçmesiyle herhangi bir bildirim olmaksızın sona erecek kira sözleşmesi belirli sürelidir; diğer kira sözleşmeleri belirli olmayan bir süre için yapılmış sayılır.",
+      tarih: "19.03.2022",
     },
   ];
   return (
     <section className="w-full py-12">
       <div className="container mx-auto flex flex-col items-center justify-center gap-4">
         <h2 className="title-font sm:text-4xl text-3xl text-center mb-4 font-medium text-primary-color">
-          Blog Yazilarimiz
+          Blog Yazılarımız
         </h2>
         <div className="flex flex-col lg:flex-row items-center justify-between gap-4 px-4">
           {blog.map((item, index) => (
-          <div key={index} className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md">
+ <div key={index} className="relative flex flex-col items-center max-w-sm h-[550px] bg-white rounded-lg border border-gray-200 shadow-md">
             <Link href="#">
               <a>
-                <Image className="rounded-t-lg" src="/images/slide1.jpg" width={400} height={200} alt="" />
+                <Image className="rounded-t-lg" src={item.img} width={400} height={200} alt="" />
               </a>
             </Link>
             <div className="p-5">
               <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 text-center">
                   {item.title}
                 </h5>
               </a>
-              <p className="mb-3 font-normal text-gray-700">
-                {item.text}
+              <p className="mb-4 font-normal text-gray-700">
+                {`${item.text.substring(0,300)}...`}
               </p>
               <a
                 href="#"
-                className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white hover:text-primary-color bg-primary-color rounded-lg hover:bg-brand-color transition-colors duration-300">
-                Devamini Oku
+                className="absolute left-1/2 bottom-4 -translate-x-1/2 flex items-center justify-center w-1/2 py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white bg-primary-color rounded-lg border border-gray-200 hover:bg-white hover:text-primary-color hover:border-2 hover:border-primary-color transition-colors duration-300">
+                Devamını Oku
                 <svg
                   className="ml-2 -mr-1 w-4 h-4"
                   fill="currentColor"
@@ -62,10 +65,11 @@ const Blog = () => {
               </a>
             </div>
           </div>
-        ))}
+          ))}
+         
         </div>
         <Link href='/blog'>
-          <a className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white bg-primary-color rounded-lg border border-gray-200 hover:bg-brand-color hover:text-primary-color focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 transition-colors duration-300">Daha Fazla</a>
+          <a className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white bg-primary-color rounded-lg border border-gray-200 hover:bg-white hover:text-primary-color hover:border-2 hover:border-primary-color transition-colors duration-300">Daha Fazla</a>
         </Link>
       </div>
     </section>
