@@ -1,48 +1,14 @@
 import React from "react";
 import Link from "next/link";
-import {
-  GoogleMap,
-  withScriptjs,
-  withGoogleMap,
-  Marker
-} from "react-google-maps";
 import { FiMail, FiPhone, FiMapPin } from "react-icons/fi";
-import { IoGlobeOutline } from "react-icons/io";
+import { IoGlobeOutline } from "react-icons/io5";
 
-
-function Map() {
-  const { InfoBox } = require("react-google-maps/lib/components/addons/InfoBox");
-  return (
-    <GoogleMap
-      defaultZoom={16}
-      defaultCenter={{ lat: 38.72441, lng: 35.48501 }}
-    >
-      <InfoBox
-        defaultPosition={{ lat: 38.72441, lng: 35.48501 }}
-        options={{ closeBoxURL: ``, enableEventPropagation: true }}
-      >
-        <div className="text-white text-sm font-medium p-1 bg-primary-color bg-opacity-80 rounded-md shadow-md">
-          <p>MURAT Hukuk & Danışmanlık</p>
-          <p>Av. Beytullah MURAT</p>
-        </div>
-      </InfoBox>
-      <Marker position={{ lat: 38.72441, lng: 35.48501 }} />
-    </GoogleMap>
-  );
-}
-
-const Wrappedmap = withScriptjs(withGoogleMap(Map));
 
 const ContactPage = () => {
   return (
     <div className="my-8">
-      <div className="w-full h-[400px] py-4">
-        <Wrappedmap
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY}`}
-          loadingElement={<div style={{ height: `100%` }} />}
-          containerElement={<div style={{ height: `100%` }} />}
-          mapElement={<div style={{ height: `100%` }} />}
-        />
+      <div className="w-full h-[400px] py-4 bg-brand-color">
+        
       </div>
       <div className="container mx-auto">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-text-color text-center">
@@ -67,12 +33,12 @@ const ContactPage = () => {
               <FiMail size={32} />
               <span>avbeytullahmurat@hotmail.com</span>
             </a>
-            {/* <Link href="/">
+            <Link href="/">
               <a className="flex items-center justify-start w-full gap-x-6 text-text-color">
                 <IoGlobeOutline />
                 <span>beytullahmurat.av.tr</span>
               </a>
-            </Link> */}
+            </Link>
             <a className="flex items-center justify-start flex-nowrap w-full gap-x-6 text-text-color">
               <FiMapPin size={32} />
               <span>

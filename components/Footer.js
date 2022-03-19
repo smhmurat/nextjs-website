@@ -60,7 +60,7 @@ export default function Footer() {
               </p>
             </div>
             <div className="w-full h-80">
-              <Wrappedmap googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY}`} loadingElement={<div style={{ height: `100%` }} />}
+              <Wrappedmap googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.NEXT_PUBLIC_GMID}`} loadingElement={<div style={{ height: `100%` }} />}
               containerElement={<div style={{ height: `100%` }} />}
               mapElement={<div style={{ height: `100%` }} />} />
             </div>
