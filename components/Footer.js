@@ -1,30 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { GoogleMap, withScriptjs, withGoogleMap, Marker } from 'react-google-maps';
 import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi'
-
-
-function Map() {
-  const { InfoBox } = require("react-google-maps/lib/components/addons/InfoBox");
-  return (
-  <GoogleMap defaultZoom={16} defaultCenter={{ lat: 38.72441, lng: 35.48501 }}>
-    <InfoBox
-        defaultPosition={{ lat: 38.72441, lng: 35.48501 }}
-        options={{ closeBoxURL: ``, enableEventPropagation: true }}
-      >
-      <div className="text-white text-sm font-medium p-1 bg-primary-color bg-opacity-80 rounded-md shadow-md">
-        <p>MURAT Hukuk & Danışmanlık</p>
-        <p>Av. Beytullah MURAT</p>
-      </div>
-    </InfoBox>
-    <Marker position={{ lat: 38.72441, lng: 35.48501 }}
-    />
-  </GoogleMap>
-  )
-}
-
-const Wrappedmap = withScriptjs(withGoogleMap(Map));
 
 export default function Footer() {
   return (
@@ -60,9 +37,7 @@ export default function Footer() {
               </p>
             </div>
             <div className="w-full h-80">
-              <Wrappedmap googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.NEXT_PUBLIC_GMID}`} loadingElement={<div style={{ height: `100%` }} />}
-              containerElement={<div style={{ height: `100%` }} />}
-              mapElement={<div style={{ height: `100%` }} />} />
+              
             </div>
           </div>
           <div className="flex flex-col items-start justify-start gap-4">
