@@ -37,7 +37,7 @@ export default function Footer() {
               </p>
             </div>
             <div className="w-full h-80">
-              
+              Map
             </div>
           </div>
           <div className="flex flex-col items-start justify-start gap-4">

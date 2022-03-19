@@ -35,7 +35,7 @@ const ContactPage = () => {
             </a>
             <Link href="/">
               <a className="flex items-center justify-start w-full gap-x-6 text-text-color">
-                <IoGlobeOutline />
+                <IoGlobeOutline size={32}/>
                 <span>beytullahmurat.av.tr</span>
               </a>
             </Link>
@@ -72,7 +72,7 @@ const ContactPage = () => {
                 placeholder="Telefon"
               />
               <input
-                type="textarea"
+                type="text"
                 className="leading-none text-text-color p-3 focus:outline-none focus:border-text-color border-2 rounded"
                 placeholder="Mesaj Konusu"
               />
