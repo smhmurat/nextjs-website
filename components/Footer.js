@@ -37,18 +37,18 @@ export default function Footer() {
               </p>
             </div>
             <div className="w-full h-80">
-              Map
+              {/* Map */}
             </div>
           </div>
           <div className="flex flex-col items-start justify-start gap-4">
             <h6 className="font-semibold text-brand-color">Bize Ulaşın</h6>
-            <a className='flex items-center justify-start w-full gap-x-6' href="mailto:avbeytullahmurat@hotmail.com">
-              <FiMail size={20} />
-              <span>avbeytullahmurat@hotmail.com</span>
-            </a>
             <a className='flex items-center justify-start w-full gap-x-6' href="tel:+903524083448">
               <FiPhone size={20} />
               <span>(0352) 408 34 48</span>
+            </a>
+            <a className='flex items-center justify-start w-full gap-x-6' href="mailto:avbeytullahmurat@hotmail.com">
+              <FiMail size={20} />
+              <span>avbeytullahmurat@hotmail.com</span>
             </a>
             <a className='flex items-center justify-start flex-nowrap w-full gap-x-6'>
               <FiMapPin size={48}/>

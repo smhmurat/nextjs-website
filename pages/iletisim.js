@@ -6,8 +6,8 @@ import { IoGlobeOutline } from "react-icons/io5";
 
 const ContactPage = () => {
   return (
-    <div className="my-8">
-      <div className="w-full h-[400px] py-4 bg-brand-color">
+    <div className="mt-32 pb-8">
+      <div className="w-full py-4 bg-brand-color hidden">
         
       </div>
       <div className="container mx-auto">

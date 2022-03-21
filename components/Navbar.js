@@ -4,7 +4,8 @@ import Image from 'next/image'
 import MenuItem from './ui/MenuItem'
 import SocialMenuItem from './ui/SocialMenuItem'
 import { FiMail, FiPhone } from 'react-icons/fi'
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { SiLinkedin } from 'react-icons/si';
 
 const menu = [
         {
@@ -31,29 +32,34 @@ const menu = [
 
 const socialMenu = [
         {
-            'href': '/',
+            'href': 'mailto:avbeytullahmurat@hotmail.com',
             'name': 'Mail',
             'icon': <FiMail size={24} />
         },
         {
-            'href': '/',
+            'href': 'tel:+903524083448',
             'name': 'Telefon',
             'icon': <FiPhone size={24} />
         },
         {
-            'href': '/',
+            'href': 'https://www.facebook.com/av.beytullahmuratt/',
             'name': 'Facebook',
             'icon': <FaFacebook size={24} />
         },
         {
-            'href': '/',
+            'href': 'https://twitter.com/BeytullahMURAT',
             'name': 'Twitter',
             'icon': <FaTwitter size={24} />
         },
         {
-            'href': '/',
+            'href': 'https://www.instagram.com/av.beytullahmurat/',
             'name': 'Instagram',
             'icon': <FaInstagram size={24} />
+        },
+        {
+            'href': 'https://www.linkedin.com/in/beytullah-murat-3849ba20b/',
+            'name': 'Linkedin',
+            'icon': <SiLinkedin size={24} />
         }
     ]
 
