@@ -43,7 +43,7 @@ const ServicesDetails = ({ service }) => {
   };
 
   return (
-    <div className='mt-5 px-4 py-4'>
+    <div className='mt-24 px-4 py-4'>
       <div className='container mx-auto'>
         <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-primary-color text-center'>{service.title}</h1>
         <Image

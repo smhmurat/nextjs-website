@@ -39,7 +39,7 @@ const AboutPage = () => {
                 Ocak 2016 - Aralık 2020
               </time>
               <h3 className="text-lg font-semibold text-gray-900">
-                İs Deneyimi
+                İş Deneyimi
               </h3>
               <p className="mb-4 text-base font-normal text-gray-500">
                 Avukat Beytullah MURAT öğrencilik döneminde başlamış olduğu

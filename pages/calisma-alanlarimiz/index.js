@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Tab } from "@headlessui/react";
 import Link from "next/link";
 import Image from "next/image";
-import servicesData from "../../services-data";
 import { getServices } from '../../services'
+import { MainContext, useContext } from "../../context/MainContext";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -49,6 +49,7 @@ const ServicesPage = ({ services }) => {
     }
   };
 
+  const { index } = useContext(MainContext)
   return (
     <section className="px-4 py-12">
       <div className="container mx-auto">
@@ -56,7 +57,7 @@ const ServicesPage = ({ services }) => {
           Çalışma Alanlarımız
         </h1>
         <div className="flex items-center justify-center py-4 ">
-          <Tab.Group>
+          <Tab.Group selectedIndex={index}>
             <div className="flex flex-col items-start justify-center md:flex-row w-full h-[500px] md:h-[700px]">
               <Tab.List
                 className="w-full sm:w-5/12 lg:w-1/4 transition-all duration-300 h-[140px] md:h-full overflow-y-scroll"
@@ -99,6 +100,7 @@ const ServicesPage = ({ services }) => {
               <Tab.Panels className="w-full sm:w-7/12 lg:w-3/4 lg:h-full">
                 {Object.values(services).map((service, idx) => (
                   <Tab.Panel
+                    id={service.slug}
                     key={idx}
                     className={({ selected }) =>
                       classNames(
