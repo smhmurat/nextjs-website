@@ -57,7 +57,7 @@ const ServicesPage = ({ services }) => {
           Çalışma Alanlarımız
         </h1>
         <div className="flex items-center justify-center py-4 ">
-          <Tab.Group selectedIndex={index}>
+          <Tab.Group defaultIndex={index}>
             <div className="flex flex-col items-start justify-center md:flex-row w-full h-[500px] md:h-[700px]">
               <Tab.List
                 className="w-full sm:w-5/12 lg:w-1/4 transition-all duration-300 h-[140px] md:h-full overflow-y-scroll"

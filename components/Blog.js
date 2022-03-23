@@ -48,10 +48,10 @@ const Blog = () => {
               </p>
               <a
                 href="#"
-                className="absolute left-1/2 bottom-4 -translate-x-1/2 flex items-center justify-center w-1/2 py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white bg-primary-color rounded-lg border border-gray-200 hover:bg-white hover:text-primary-color hover:border-2 hover:border-primary-color transition-colors duration-300">
+                className='absolute left-1/2 bottom-4 -translate-x-1/2 inline-flex items-center transition duration-500 transform hover:-translate-y-1 bg-primary-color text-white text-base font-medium rounded-full px-4 py-2 cursor-pointer'>
                 Devamını Oku
                 <svg
-                  className="ml-2 -mr-1 w-4 h-4"
+                  className="ml-2 -mr-1 w-6 h-6"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ const Blog = () => {
          
         </div>
         <Link href='/blog'>
-          <a className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white bg-primary-color rounded-lg border border-gray-200 hover:bg-white hover:text-primary-color hover:border-2 hover:border-primary-color transition-colors duration-300">Daha Fazla</a>
+          <a className='transition duration-500 transform hover:-translate-y-1 inline-block bg-primary-color text-white text-lg font-medium rounded-full px-8 py-3 cursor-pointer'>Daha Fazla</a>
         </Link>
       </div>
     </section>
