@@ -6,18 +6,21 @@ const Blog = () => {
   const blog = [
     {
       img: '/images/assets/blog/cekisme.jpg',
+      link: 'cekismeli-bosanma-davasi',
       title: "ÇEKİŞMELİ BOŞANMA DAVASI",
       text: "Çekişmeli boşanma davaları, taraflar arasında boşanmaya esas teşkil eden sebeplerin ve taleplerin çekişmeli olduğu, eşlerin boşanmanın hukuki sonuçlarında bir anlaşmaya varamadığı boşanma davalarıdır. Çekişmeli boşanma davası, Türk Medeni Kanun m.161-m.166 arasında düzenlenen hem “genel” hem de “özel” boşanma sebeplerine dayanılarak açılabilmektedir. Çekişmeli boşanma davasında sadece boşanma sebepleri değil, boşanmada hangi tarafın daha kusurlu olduğu, maddi ve manevi tazminat, nafaka, velayet, ev eşyalarının paylaşımı vb. gibi konularda çekişmenin yaşandığı bir dava türüdür. Mal paylaşımından kaynaklanan katılma alacağı veya katkı payı alacağı davaları ise ayrı bir mal paylaşımı davası şeklinde açılmalıdır. Çekişmeli boşanma davası açan davacı, davalı taraftan daha fazla kusurlu ise boşanma davası reddedilir.",
       tarih: "18.03.2022",
     },
     {
       img: '/images/assets/blog/anlasma.jpg',
+      link: 'anlasmali-bosanma-davasi',
       title: "ANLAŞMALI BOŞANMA DAVASI",
       text: "Anlaşmalı boşanma davası, en az 1 yıl süren evliliklerde, eşlerin birlikte başvurması ya da bir eşin diğerinin açtığı davayı kabul etmesi hâlinde söz konusu olur. Burada genel ve mutlak bir boşanma sebebi vardır. Şartların gerçekleşmesi halinde hakim boşanmaya karar verir. Çünkü kanun, eşlerin boşanma hususunda anlaşmış olmalarını, evlilik birliğinin temelinden sarsıldığına ve bu durumun ortak hayatın devamının beklenemez hale getirdiğine ilişkin bir faraziye olarak kabul etmiştir. Ancak anlaşmış olma kendiliğinden boşanma sonucunu sağlamamakta, boşanma kararının verilmesi için bir sebep oluşturmaktadır. Boşanmaya karar verilebilmesini kanun bazı ek şartların varlığına bağlamıştır. ",
       tarih: "18.03.2022",
     },
     {
       img: '/images/assets/blog/kira.jpg',
+      link: 'kira-sozlesmesi-ve-kira-artis-orani',
       title: "KİRA SÖZLEŞMESİ VE KİRA ARTIŞ ORANI",
       text: "Kira sözleşmesi, kiraya verenin bir şeyin kullanılmasını veya kullanmayla birlikte ondan yararlanılmasını kiracıya bırakmayı, kiracının da buna karşılık kararlaştırılan kira bedelini ödemeyi üstlendiği sözleşmedir.Kira sözleşmesi, belirli ve belirli olmayan bir süre için yapılabilir. Kararlaştırılan sürenin geçmesiyle herhangi bir bildirim olmaksızın sona erecek kira sözleşmesi belirli sürelidir; diğer kira sözleşmeleri belirli olmayan bir süre için yapılmış sayılır.",
       tarih: "19.03.2022",
@@ -46,10 +49,9 @@ const Blog = () => {
               <p className="mb-4 font-normal text-gray-700">
                 {`${item.text.substring(0,300)}...`}
               </p>
-              <a
-                href="#"
-                className='absolute left-1/2 bottom-4 -translate-x-1/2 inline-flex items-center transition duration-500 transform hover:-translate-y-1 bg-primary-color text-white text-base font-medium rounded-full px-4 py-2 cursor-pointer'>
-                Devamını Oku
+              <Link
+                href={`/blog/${item.link}`}>
+                <a className='absolute left-1/2 bottom-4 -translate-x-1/2 inline-flex items-center transition duration-500 transform hover:-translate-y-1 bg-primary-color text-white text-base font-medium rounded-full px-4 py-2 cursor-pointer'>Devamını Oku</a>
                 <svg
                   className="ml-2 -mr-1 w-6 h-6"
                   fill="currentColor"
@@ -62,7 +64,7 @@ const Blog = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-              </a>
+                </Link>
             </div>
           </div>
           ))}
