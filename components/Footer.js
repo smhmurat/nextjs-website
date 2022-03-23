@@ -59,7 +59,7 @@ export default function Footer() {
       </div>
       <div className="bg-secondary-color text-white py-2">
         <p className="text-center text-xs">
-          &copy; Copyright 2021 - <Link href="/"><a>@smhmurat</a></Link> | Her Hakkı
+          &copy; Copyright 2021 - <Link href="https://www.instagram.com/smhmurat/"><a>@smhmurat</a></Link> | Her Hakkı
           Saklıdır.
         </p>
       </div>

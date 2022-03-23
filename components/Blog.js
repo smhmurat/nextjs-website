@@ -51,7 +51,8 @@ const Blog = () => {
               </p>
               <Link
                 href={`/blog/${item.link}`}>
-                <a className='absolute left-1/2 bottom-4 -translate-x-1/2 inline-flex items-center transition duration-500 transform hover:-translate-y-1 bg-primary-color text-white text-base font-medium rounded-full px-4 py-2 cursor-pointer'>Devamını Oku</a>
+                <a className='absolute left-1/2 bottom-4 -translate-x-1/2 inline-flex items-center transition duration-500 transform hover:-translate-y-1 bg-primary-color text-white text-base font-medium rounded-full px-4 py-2 cursor-pointer'>
+                <span>Devamını Oku</span>
                 <svg
                   className="ml-2 -mr-1 w-6 h-6"
                   fill="currentColor"
@@ -64,6 +65,7 @@ const Blog = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
+                </a>
                 </Link>
             </div>
           </div>

@@ -2,17 +2,6 @@ import React from 'react'
 import { Categories, PostCard, PostWidget } from '../components'
 import { getPosts } from '../services'
 
-const posts = [
-  {
-    'title': 'Deneme',
-    'excerpt': 'Lorem ipsum'
-  },
-  {
-    'title': 'Deneme',
-    'excerpt': 'Lorem ipsum'
-  }
-]
-
 const BlogPage = ({ posts }) => {
   return (
     <div className='mt-32'>
