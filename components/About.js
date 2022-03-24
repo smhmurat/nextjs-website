@@ -10,13 +10,13 @@ const About = () => {
           <h2 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-primary-color">Hakkımızda
           </h2>
           <p className="mb-4 text-xl font-normal text-primary-color ">
-                Avukat Beytullah MURAT İstanbul üniversitesi&apos;nde ki öğrencilik dönemi ve sonrasında yaklaşık 5 yıl boyunca takip ettiği birçok dava ve yaptığı danışmanlık işleriyle İstanbul&apos;da kazandığı tecrübe sonrasında 2021 yılında Kayseri’ye gelerek Murat Hukuk & Danışmanlık Bürosunu kurmuştur.
+                Avukat Beytullah MURAT İstanbul Üniversitesi&apos;ndeki öğrencilik döneminde ve sonrasında yaklaşık 5 yıl boyunca takip ettiği birçok davayla ve yaptığı danışmanlık işleriyle İstanbul&apos;da kazandığı tecrübe sonrasında 2021 yılında Kayseri’ye gelerek Murat Hukuk & Danışmanlık Bürosunu kurmuştur.
               </p>
               <p className="mb-4 text-xl font-normal text-primary-color">
-                Murat Hukuk & Danışmanlık Bürosu, yerli ve yabancı müvekkillerine, ticari yaklaşımlara ve kişisel özelliklere uygun, çözüm odaklı, kapsamlı hukuki danışmanlık ve dava takip hizmetleri sunmakta, dürüşt, şeffaf, müvekkil odaklı seçkin bir hukuki destek sağlamaktadır.
+                Murat Hukuk & Danışmanlık Bürosu, yerli ve yabancı müvekkillerine, ticari yaklaşımlara ve kişisel özelliklere uygun, çözüm odaklı, kapsamlı hukuki danışmanlık ve dava takip hizmetleri sunmakta, dürüst, şeffaf, müvekkil odaklı seçkin bir hukuki destek sağlamaktadır.
               </p>
               <Link href='/hakkimizda'>
-                <a className="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-white bg-primary-color rounded-lg border border-gray-200 hover:bg-brand-color focus:z-10 focus:ring-2 transition-colors duration-300">Devami</a>
+                <a className='transition duration-500 transform hover:-translate-y-1 inline-block bg-primary-color text-white text-lg font-medium rounded-full px-8 py-3 cursor-pointer'>Daha Fazla</a>
             </Link>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

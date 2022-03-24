@@ -65,7 +65,7 @@ const AboutPage = () => {
                 Murat Hukuk & Danışmanlık Bürosu, yerli ve yabancı
                 müvekkillerine, ticari yaklaşımlara ve kişisel özelliklere
                 uygun, çözüm odaklı, kapsamlı hukuki danışmanlık ve dava takip
-                hizmetleri sunmakta, dürüşt, şeffaf, müvekkil odaklı seçkin bir
+                hizmetleri sunmakta, dürüst, şeffaf, müvekkil odaklı seçkin bir
                 hukuki destek sağlamaktadır.
               </p>
               <p className="mb-4 text-base font-normal text-gray-500">
@@ -81,7 +81,7 @@ const AboutPage = () => {
               </p>
               <p className="mb-4 text-base font-normal text-gray-500">
                 Yüksek tecrübe ve enerjimiz ile sizi anlayan ve sıkıntılarınıza
-                yaratıcı çözümler sunan bir hukuk bürosu olarak, bireysel ve
+                etkin çözümler sunan bir hukuk bürosu olarak, bireysel ve
                 kurumsal ayrım gözetmeksizin tüm müvekkillerimizin hukuki
                 sorunlarını, hızlı bir şekilde ve üstün hizmet anlayışıyla
                 çözmek, risklerini azaltmak en önemli amacımızdır.
